@@ -1,0 +1,19 @@
+{
+  "name": "800分必备单词",
+  "short_name": "800分单词",
+  "description": "TOEIC上級単語特急 黒のフレーズ 単語学習アプリ",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1a2e",
+  "theme_color": "#16213e",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "scope": "./"
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title>800分必备单词</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#16213e">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#1a1a2e;color:#eee;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px}
+.wrap{width:100%;max-width:420px;text-align:center}h1{font-size:1.2rem;color:#fff;margin-bottom:4px}.sub{color:#888;font-size:.8rem;margin-bottom:28px}
+.note{background:#16213e;border-radius:12px;padding:16px;margin-bottom:24px;text-align:left;font-size:.82rem;color:#aaa;line-height:1.6}
+.note strong{color:#ffd54f}
+.page-list{display:flex;flex-direction:column;gap:12px}
+.page-btn{display:block;width:100%;padding:16px 20px;background:#0f3460;border:2px solid #1a1a4e;border-radius:14px;color:#fff;text-decoration:none;font-size:.95rem;font-weight:600;text-align:left;transition:all .2s}
+.page-btn:hover{background:#1a4a7a;border-color:#357}
+.page-btn .badge{display:inline-block;background:#e94560;color:#fff;padding:2px 10px;border-radius:8px;font-size:.7rem;margin-right:10px;vertical-align:middle}
+.page-btn .arrow{float:right;color:#888}
+.disabled{opacity:.4;pointer-events:none}
+.footer{margin-top:28px;color:#444;font-size:.65rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>📖 800分必备单词</h1>
+<p class="sub">TOEIC頻出単語クイズ</p>
+<div class="note"><strong>使い方:</strong> 単語が表示されたら、4つの例文から正しいものを選んでください。正解すると意味・発音・例文の訳が表示されます。🔊ボタンで発音も聞けます。</div>
+<div class="page-list">
+<a href="p22.html" class="page-btn"><span class="badge">P.22</span>単語201〜210 出題モード<span class="arrow">→</span></a>
+<span class="page-btn disabled"><span class="badge" style="background:#555">準備中</span>他のページは順次追加予定</span>
+</div>
+<p class="footer">Powered by GitHub Pages</p>
+</div>
+<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js")}</script>
+</body>
+</html>
